@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: next
+theme: apollo
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -71,3 +71,4 @@ deploy:
   type: git
   repo: https://github.com/zqlu/zqlu.github.com.git
   branch: master
+
