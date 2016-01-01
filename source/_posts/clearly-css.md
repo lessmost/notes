@@ -1,7 +1,7 @@
 title: 悦读插件是怎么让网页变得简明和易如阅读的？
 date: 2015-12-29 23:32:22
 tags: css
-category: frontend
+category: Frontend
 
 ---
 
