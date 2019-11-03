@@ -26,6 +26,6 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_PERSONAL_ACCESS_TOKEN }}
         directory: public
-        repository: 'zqlu/zqlu.github.com'
+        repository: zqlu/zqlu.github.com
         force: true
 
