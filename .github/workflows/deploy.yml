@@ -25,7 +25,7 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_PERSONAL_ACCESS_TOKEN }}
-        directory: './public'
+        directory: public
         repository: 'zqlu/zqlu.github.com'
         force: true
 
