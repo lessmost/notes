@@ -190,7 +190,7 @@ binary-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.0.0.tgz#23c0df14f6a88077f5f986c0d167ec03c3d5537c"
   integrity sha512-Phlt0plgpIIBOGTT/ehfFnbNlfsDEiqmzE2KRXoX1bLIlir4X/MR+zSyBEkL05ffWgnRSf/DXv+WrUAVr93/ow==
 
-bluebird@^3.2.2, bluebird@^3.5.1, bluebird@^3.5.2, bluebird@^3.5.5:
+bluebird@^3.2.2, bluebird@^3.5.0, bluebird@^3.5.1, bluebird@^3.5.2, bluebird@^3.5.5:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.1.tgz#df70e302b471d7473489acf26a93d63b53f874de"
   integrity sha512-DdmyoGCleJnkbp3nkbxTLJ18rjDsE4yCggEwKNXkeV123sPNfOCYeDoeuOY+F2FrSjO1YXcTU+dsy96KMy+gcg==
@@ -961,6 +961,18 @@ hexo-cli@^3.0.0:
     resolve "^1.11.0"
     tildify "^2.0.0"
 
+hexo-deployer-git@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-deployer-git/-/hexo-deployer-git-2.0.0.tgz#54d20a038676eb828c989c17a775d26c3e26fc01"
+  integrity sha512-YwEwZNmqYxq7VXM92uyay8HcPF/BqROhfnySnv5Gf5BpH1FXY8Suu9kxjv+8x5np7YRUH8WVyxWprwd4W16kdA==
+  dependencies:
+    bluebird "^3.5.0"
+    chalk "^2.4.1"
+    hexo-fs "^2.0.0"
+    hexo-util "^1.0.0"
+    moment "^2.18.0"
+    swig-templates "^2.0.2"
+
 hexo-front-matter@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-front-matter/-/hexo-front-matter-1.0.0.tgz#0b48b1c1ed143e8cb25b3b223a9037385d910655"
@@ -1076,7 +1088,7 @@ hexo-util@1.0.0:
     html-entities "^1.2.1"
     striptags "^3.1.1"
 
-hexo-util@^1.4.0:
+hexo-util@^1.0.0, hexo-util@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-1.4.0.tgz#73dff21e544fbe37399a9f2103704528db411e8a"
   integrity sha512-UHvp4aZ4h1cSgGvtBZfEIYoaK2FfEC4D3K4BlnXcCYFHyYhKwftmS1wH/K91Bm5TBFEp90wK2DiwGCEDntO6MQ==
@@ -1628,7 +1640,7 @@ moment-timezone@^0.5.21:
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.10.6, moment@^2.22.2:
+"moment@>= 2.9.0", moment@^2.10.6, moment@^2.18.0, moment@^2.22.2:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
@@ -2405,7 +2417,7 @@ swig-extras@0.0.1:
   dependencies:
     markdown "~0.5.0"
 
-swig-templates@^2.0.3:
+swig-templates@^2.0.2, swig-templates@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/swig-templates/-/swig-templates-2.0.3.tgz#6b4c43b462175df2a8da857a2043379ec6ea6fd0"
   integrity sha512-QojPTuZWdpznSZWZDB63/grsZuDwT/7geMeGlftbJXDoYBIZEnTcKvz4iwYDv3SwfPX9/B4RtGRSXNnm3S2wwg==
