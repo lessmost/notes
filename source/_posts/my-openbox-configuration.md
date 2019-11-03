@@ -1,3 +1,4 @@
+---
 title: 我的 Openbox 窗口管理器的配置
 date: 2013-06-28 22:47:41
 category: Desktop

@@ -1,8 +1,8 @@
+---
 title: 悦读插件是怎么让网页变得简明和易如阅读的？
 date: 2015-12-29 23:32:22
 tags: css
 category: Frontend
-
 ---
 
 Evernote 的 [Clearly](https://evernote.com/clearly/) 插件能够让网页简洁和易于阅读，它将网页的主要内容在新的 iframe 中显示，并使用新的不同的主题样式。
