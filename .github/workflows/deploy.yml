@@ -17,9 +17,15 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: install & deploy
+    - name: generate
       run: |
         yarn
-        git config --global user.name zqlu
-        git config --global user.email zqlu.cn@gmail.com
-        yarn run deploy
+        yarn run build
+    --name: deploy
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_PERSONAL_ACCESS_TOKEN }}
+        directory: './public'
+        repository: 'https://github.com/zqlu/zqlu.github.com.git'
+        force: true
+
