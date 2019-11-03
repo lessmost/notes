@@ -25,7 +25,8 @@ jobs:
         git init
         git config --local user.name zqlu
         git config --local user.email "zqlu.cn@gmail.com"
-        git commit -a -m "commit by action@notes" 
+        git add .
+        git commit -m "commit by action@notes" 
     - name: deploy
       uses: ad-m/github-push-action@master
       with:
