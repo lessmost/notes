@@ -20,6 +20,6 @@ jobs:
     - name: install & deploy
       run: |
         yarn
-        git config user.name zqlu
-        git config user.email zqlu.cn@gmail.com
+        git config --global user.name zqlu
+        git config --global user.email zqlu.cn@gmail.com
         yarn run deploy
