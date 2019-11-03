@@ -19,6 +19,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: install & deploy
       run: |
-        yarn global add hexo-cli
         yarn
-        hexo deploy
+        yarn run deploy
