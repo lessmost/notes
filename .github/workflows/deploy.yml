@@ -22,7 +22,7 @@ jobs:
         yarn
         yarn run build
     - name: deploy
-    - uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_PERSONAL_ACCESS_TOKEN }}
         directory: './public'
