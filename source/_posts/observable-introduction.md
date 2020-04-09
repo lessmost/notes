@@ -6,7 +6,7 @@ category: Visualization
 ---
 
 > 直接在 Observable 上阅读本文，点击链接 👇
-> [https://observablehq.com/@zqlu/toilet-paper-calculator](https://observablehq.com/@zqlu/toilet-paper-calculator)
+> [https://observablehq.com/@zqlu/observable](https://observablehq.com/@zqlu/observable)
 
 ## Observable 是什么？
 
