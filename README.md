@@ -1,5 +1,6 @@
 > 久久想不起来更新的笔记
 
+- [[译]我们必须得谈谈 Python、Gunicorn、Gevent 这些事了](./source/_posts/python-service-thing.md)
 - [Observable notebook 基础介绍](./source/_posts/observable-introduction.md)
 - [为什么 Google 代码规范推荐使用小写作为文件名](./source/_posts/why-use-lowercase-for-filename.md)
 - [使用淘宝 NodeJS 镜像加速 Electron Node-Sass 的安装速度](./source/_posts/taobao-nodejs-mirror.md)
