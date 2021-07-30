@@ -1,0 +1,37 @@
+name: deploy
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: generate
+      run: |
+        yarn
+        yarn run build
+        cd public
+        git init
+        git config --local user.name zqlu
+        git config --local user.email "zqlu.cn@gmail.com"
+        git add .
+        git commit -m "commit by action@notes" 
+    - name: deploy
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_PERSONAL_ACCESS_TOKEN }}
+        directory: public
+        repository: zqlu/zqlu.github.com
+        force: true
+
